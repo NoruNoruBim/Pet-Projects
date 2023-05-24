@@ -1,2 +1,2 @@
 # Pet-Projects
-There is some examples of my pet projects.
+There are some examples of my pet projects.
