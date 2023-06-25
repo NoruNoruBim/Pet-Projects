@@ -1,3 +1,14 @@
+This is a web-parser, which parses website with advertisement of some goods. Part of a code was removed.
+This parser gets newest links from web-page and sends them to messenger (Telegram).
+
+main.py - main file which launches the whole program
+crawler.py - part which works with web-page and responses from the server
+indexator.py - part which works with saved data
+bot.py - sends data to Telegram chat
+logger.py - just a simple logger which logs important events
+
+--------------------------------------------------------------------------------------------------------
+
 Парсер веб-сайта с объявлениями. Часть кода удалена.
 Парсер обрабатывает сайт, получая самые новые ссылки на объявления и отправляет их в телеграм.
 
