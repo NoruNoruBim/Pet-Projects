@@ -1,3 +1,12 @@
+This is the code which processes a binary file with specific data. Part of a code was removed.
+Source file can be "unarchived" into excel-files or edited on the base of another excel-files.
+
+dialog.py - launch with graphic interface
+DB_BE.py - main file, can be run from console
+structures.py - file with structures which are into binary file
+
+-----------------------------------------------------------------------------------------------
+
 Здесь расположен код по обработке бинарного файла с данными. Часть кода удалена.
 Исходный файл может быть "распакован" в excel-файлы, либо изменён на основе других excel-файлов.
 
