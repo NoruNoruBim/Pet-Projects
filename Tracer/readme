@@ -1,3 +1,12 @@
+Tracing and parsing of SCADE models. Part of a code was removed.
+
+main.py - main file which launches the whole program
+ModelParser.py - contains fields and methods to process the model
+DocsParser.py - contains fields and methods to process documents
+CommonParser.py - contains fields and methods to unite results
+
+---------------------------------------------------------------------
+
 Трассировка и парсинг моделей SCADE. Часть кода удалена.
 
 main.py - основной файл, запускается из консоли
