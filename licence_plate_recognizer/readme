@@ -1,1 +1,37 @@
+This is the code which recognize symbols on car's licence plate. Part of code was removed.
+Input - photo of car with licence plate. Photo from DVR, for example. Project can be improved to work with video.
+The work takes place in several stages:
+--- 1) Using MASK R-CNN, the position of the license plate is detected
+--- 2) The license plate is cut from the original photo and normalized
+--- 3) Finding and cutting symbols from plate
+--- 4) Recognizing (classification) of each symbol using convolutional neural network
+--- 5) Drawing of result on original image and it's printing to console
 
+
+main.py - enter name of photo, then step-by-step working with it and drawing of result
+find_box.py - uses pre-trained MASK R-CNN and finds location of licence plate (4 points)
+cnn_model_train.py - convolutional neural network based on keras, code to train it
+custom.py - file which needed to use MASK R-CNN
+cut_box.py - cuts license plate from original image
+hough.py - Hough's alforithm, normalizes founded plate
+recognize_symbols.py - uses pre-trained classifier, gets symbols, classifies each symbol
+
+-----------------------------------------------------------------------------------------------
+
+Система распознавания номеров автомобилей по фото. Часть кода удалена.
+На вход подается фото автомобиля, на котором виден госномер. Фото может быть, в том числе, с видеорегистратора и т.п. Систему можно доработать под видеоданные.
+Работа происходит в несколько этапов:
+--- 1) С помощью MASK R-CNN обнаруживается положение госномера
+--- 2) Госномер вырезается с оригинального фото и нормализуется
+--- 3) Далее на номере находятся символы и тоже вырезаются
+--- 4) Происходит распознавание (классификация) каждого символа при помощи сверточной нейронной сети
+--- 5) Отрисовка полученного результата на оригинальном фото и вывод в консоль
+
+
+main.py - вводим имя картинки, поэтапно предсказываем номер и отрисовываем
+find_box.py - поднимает обученную MASK R-CNN и с её помощью находит рамку (4 точки) с номером на фото
+cnn_model_train.py - сверточная сеть на keras, код для её обучения
+custom.py - файл, необходимый, для использования MASK R-CNN
+cut_box.py - вырезает по 4м точкам рамку госномера из фото
+hough.py - алгоритм Хафа, нормализует найденную рамку
+recognize_symbols.py - поднимает обученный классификатор, получает символы, классифицирует каждый символ
