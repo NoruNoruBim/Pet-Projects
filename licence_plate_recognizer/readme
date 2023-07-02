@@ -1,4 +1,4 @@
-This is the code which recognize symbols on car's licence plate. Part of a code was removed.
+This is the code which recognizes symbols on car's licence plate. Part of a code was removed.
 Input - photo of car with licence plate. Photo from DVR, for example. Project can be improved to work with video.
 The work takes place in several stages:
 --- 1) Using MASK R-CNN, the position of the license plate is detected
