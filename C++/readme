@@ -2,9 +2,11 @@ Examples of C++ code.
 
 DFS_BFS_Graph.cpp
 Implemetation of Depth-first search and Breadth-first search algorithms. Uses adjacency matrix.
+Uses: STL vector, queue, map.
 
 LIST_Iterator.cpp
 Simple list class with iterator.
+Uses: smart pointers, operators overloading.
 
 inheritance.cpp
 Simple example of OOP inheritance.
