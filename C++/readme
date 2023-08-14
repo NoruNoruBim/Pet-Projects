@@ -5,3 +5,6 @@ Implemetation of Depth-first search and Breadth-first search algorithms. Uses ad
 
 LIST_Iterator.cpp
 Simple list class with iterator.
+
+inheritance.cpp
+Simple example of OOP inheritance.
