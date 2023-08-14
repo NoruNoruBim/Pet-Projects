@@ -7,10 +7,10 @@ website_parser
 -    OOP
 -    requests
 -    BeautifulSoup
+-    telebot
 -    re
 -    pandas 
 -    os
--    telebot
 
 licence_plate_recognizer
 -    MASK R-CNN
