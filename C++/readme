@@ -1,1 +1,7 @@
+Examples of C++ code.
 
+DFS_BFS_Graph.cpp
+Implemetation of Depth-first search and Breadth-first search algorithms. Uses adjacency matrix.
+
+LIST_Iterator.cpp
+Simple list class with iterator.
