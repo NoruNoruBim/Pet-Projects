@@ -1,1 +1,45 @@
+This program makes 3D frames with some types of geometric figures and light sources.
+I use parallel computing based on GPU (CUDA) and Ray Tracing.
+In examples you can see implementation of reflections, shadows and different types of light sources.
+A video is created from these frames. (you can see at the link below)
+You can choose:
+    1) number of frames
+    2) view angle, camera movement
+    3) figure params (color, size, location, reflection coefficient, number of point light sources)
+    4) light sources params
+    5) depth of recursion (reflection)
 
+Into the code you can see implementation of triangle approximation, some geometric algotithms, such as finding of intersection, normals, etc.
+
+Magic.hpp - library file
+myRender.cu - main file
+make_video.py - script which generates video from frames
+tests.txt - parameters which needed to start the program into console
+frames - folder with results (frames)
+
+Video examples:
+https://disk.yandex.ru/d/pNN0eSriUmqOKA
+
+------------------------------------------------------------------------------------------------------------------------------------
+
+Данная программа создает 3D кадры с различными геометрическими фигурами и источниками освещения.
+Рендер кадров происходит с распараллеливанием на GPU. Реализована обратная трассировка лучей (ray tracing).
+В примерах можно видеть реалиацию отражений, теней, различных источников света.
+Созданные кадры объединяются в видео (можно посмотреть по ссылке ниже).
+Можно регулировать:
+    1) количество кадров
+    2) угол обзора, движение камеры
+    3) параметры фигур (цвет, размер, местоположение, коэффициент отражения, кол-во точечных источников света)
+    4) параметры источников света
+    5) глубину рекурсии (для отражения)
+
+В коде применены алгоритм аппроксимации треугольниками, различные геометрические алгоритмы: нахождение пересечений, нормалей и т.д.
+
+Magic.hpp - библиотечный файл
+myRender.cu - основной файл
+make_video.py - скрипт, генерирующий видео из кадров
+tests.txt - параметры для запуска программы через консоль
+frames - папка с результатами (кадрами)
+
+Примеры видео:
+https://disk.yandex.ru/d/pNN0eSriUmqOKA
