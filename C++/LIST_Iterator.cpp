@@ -32,10 +32,10 @@ class Iterator {
     
     public:
         using node_ptr = std::unique_ptr<Node>;
-        Iterator() noexcept : current_node(nullptr) {};
-        Iterator(const node_ptr &node) noexcept : current_node(node.get()){};
+        Iterator() : current_node(nullptr) {};
+        Iterator(const node_ptr &node) : current_node(node.get()){};
 
-        Iterator& operator++() noexcept
+        Iterator& operator++()
         {
             if (current_node != nullptr)
             {
@@ -50,19 +50,19 @@ class Iterator {
             return *this;
         };
 
-        Iterator operator++(int) noexcept
+        Iterator operator++(int)
         {
             Iterator tempIter = *this;
             ++*this;
             return tempIter;
         };
 
-        bool operator!=(const Iterator &other) const noexcept
+        bool operator!=(const Iterator &other) const
         {
             return this->current_node != other.current_node;
         };
 
-        string operator*() const noexcept
+        string operator*() const
         {
             return this->current_node->value;
         };
@@ -108,11 +108,11 @@ class LinkedList {
             cout << endl;
         }
         
-        Iterator begin() const noexcept {
+        Iterator begin() const {
             return Iterator(this->root);
         }
 
-        Iterator end() const noexcept {
+        Iterator end() const {
             return Iterator();
         }
         
