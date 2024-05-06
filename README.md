@@ -3,6 +3,14 @@ There are some examples of my pet projects.
 
 --- Python:
 
+Kaggle
+-    sklearn
+-    pandas
+-    seaborn
+-    matplotlib
+-    numpy
+-    scipy
+
 website_parser 
 -    OOP
 -    requests
