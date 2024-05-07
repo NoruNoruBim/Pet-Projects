@@ -1,3 +1,24 @@
+There is test task where i have to predict customer outflow (classification).
+
+Task description is in the file "Описание задания.ipynb"
+
+In the code folder:
+
+1) extract_data.py - extracting data from source files (train_action and train_pay)
+2) cleaning_preprocessing.py - cleaning and preprocessing of dataset
+3) feature_selection.py - feature selection using SequentialFeatureSelector
+4) model_selection.py - model selection using GridSearchCV
+5) predict_final.py - making final prediction to test data
+
+"ROC_train.png" - plot of ROC to train data.
+Cross-validation roc_auc = 0.846.
+
+File "train_action_df.csv" was reduced to upload it here.
+
+
+-------------------------------------------------------------------------------------------
+
+
 Тестовое задание по оттоку клиентов (классификация).
 
 Условие задания находится в файле "Описание задания.ipynb"
