@@ -1,4 +1,4 @@
-There is test task where i have to predict customer outflow (classification).
+This is test task where i have to predict customer outflow (classification).
 
 Task description is in the file "Описание задания.ipynb"
 
