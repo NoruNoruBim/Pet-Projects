@@ -11,14 +11,12 @@ Kaggle
 -    numpy
 -    scipy
 
-website_parser 
--    OOP
--    requests
--    BeautifulSoup
--    telebot
--    re
--    pandas 
--    os
+Customer_outflow
+-    sklearn
+-    pandas
+-    seaborn
+-    matplotlib
+-    numpy
 
 licence_plate_recognizer
 -    MASK R-CNN
@@ -27,6 +25,15 @@ licence_plate_recognizer
 -    cv2
 -    numpy 
 -    matplotlib
+-    os
+
+website_parser 
+-    OOP
+-    requests
+-    BeautifulSoup
+-    telebot
+-    re
+-    pandas 
 -    os
 
 DB_parser
